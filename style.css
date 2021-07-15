@@ -130,7 +130,15 @@ main {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
+
+}
+
+section.project-line div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
 
 article {
