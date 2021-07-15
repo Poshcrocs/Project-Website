@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Redressed', cursive;
 }
 
 
@@ -15,4 +16,39 @@ header {
 details {
     margin-left: 50px;
     font-size: 40px;
+}
+
+details summary {
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Navigation bar above */
+/* Introduction and other mains below! */
+
+
+.page-1 {
+    background-image: url(./Images/sky.jpg);
+    height: 100%;
+    width: 100%;
+    
+}
+
+main {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#profile {
+    height: 100px;
+    width: 100px;
+}
+
+#hill-main {
+    background-image: url(./Images/hill-right.svg);
+    /* change svg files details, add preserveAspectRatio="none" and remove height/ weight tags */
 }
