@@ -24,6 +24,13 @@
 .split-body{
     display: flex;
 }
+.split-line {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 article {
     margin: 3vh;
     text-align: center;
@@ -90,6 +97,7 @@ details summary {
     min-height: 60vh;
     padding-right: 3vh;
     display: flex;
+    
     justify-content: flex-end;
     align-items: center;
     background-image: url(./Images/svg-parts/hill-right.svg), url(./Images/svg-parts/hill-left.svg);
@@ -101,13 +109,13 @@ details summary {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 #introduction p {
     background-color: rgb(0, 110, 0);
     border-radius: 3vh;
     color: white;
-    padding: 2vh;
+    padding: 1vh;
 }
 
 #profile {
@@ -156,15 +164,6 @@ details summary {
     display: flex;
     text-align: center;
 }
-
-.split-line {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
 /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa .project needs a @media edit (width)*/
 
 .project {
@@ -208,6 +207,25 @@ details summary {
         width: 160px;
     }
 }
+
+
+
+/* To-do list:
+Go through pages and @media screen/query at 600px
+
+possibly again at 900 or another value?
+
+Sort page 1 profie pop up (max sizes instead for after 600?)
+
+Margins and padding on page 2 (all widths!) +logo
+
+Margins and padding on page 3
+
+format page 4 (unhappy as is, especially on desktop
+
+actually fill it in...
+*/
+
 
 
 /* Fin */
