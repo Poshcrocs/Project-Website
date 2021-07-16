@@ -1,34 +1,14 @@
+/* universal settings*/
 * {
     margin: 0%;
     padding: 0%;
-    font-family: 'Redressed', cursive;
+    font-family: 'Bubblegum Sans', cursive;
     font-size: 1em;
-    
 }
 
-nav {
-    width: 100%;
-    height: 4vh;
-    background-image: url(./Images/svg-parts/Naviborder.svg);
-    padding: 2vw;
-    display: inline-block;
-}
+/* recurring settings */
 
-details {
-    margin-left: 6vw;
-    
-}
-
-details summary {
-    color: white;
-    cursor: pointer;
-}
-
-
-/* Navigation bar above */
-/* Introduction and other mains below! */
-
-.divider {
+.divider { 
     width: 100%;
     height: 10vh;
     display: flex;
@@ -38,21 +18,57 @@ details summary {
 
 .transition {
     height: 100%;
+    margin-bottom: -1px;
 }
 
+.split-body{
+    display: flex;
+}
+article {
+    margin: 3vh;
+    text-align: center;
+}
+
+/* nav bar */
+
+nav {
+    width: 100%;
+    height: 8vh;
+    background-image: url(./Images/svg-parts/Naviborder.svg);
+    display: inline-block;
+    font-size: 5vw;
+}
+
+#burger {
+    height: 70%;
+    width: 10vh;
+    margin-top: 0.5vh;
+}
+
+details {
+    margin-left: 7vw;
+}
+
+details summary {
+    color: white;
+    cursor: pointer;
+    list-style: none;
+}
+
+/* Page 1 */
 
 #page-1 {
     background-image: url(./Images/backgrounds/sky.jpg);
     background-color: #11b43e;
     background-repeat: repeat;
     background-size: contain;
-    min-height: 75vh;
-    max-height: 150vh;
     width: 100%;
+    margin-bottom: -1px;
+
 }
 
 #skyline {
-    height: 40%;
+    height: 40vw;
     display: flex;
     justify-content: flex-end;
 }
@@ -72,33 +88,32 @@ details summary {
 #hill-main {
     max-height: 100%;
     min-height: 60vh;
-    padding-right: 3vw;
+    padding-right: 3vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-.split-body{
-    display: flex;
+    background-image: url(./Images/svg-parts/hill-right.svg), url(./Images/svg-parts/hill-left.svg);
 }
 
 #introduction {
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    font-size: 1.2em;
+}
+#introduction p {
+    background-color: rgb(0, 110, 0);
+    border-radius: 3vh;
+    color: white;
+    padding: 2vh;
 }
 
 #profile {
     height: 50%;
     width: 50%;
     margin-left: 20%;
-
-    
-}
-
-#hill-main {
-    background-image: url(./Images/svg-parts/hill-right.svg), url(./Images/svg-parts/hill-left.svg);
 }
 
 #grass-dirt {
@@ -106,14 +121,13 @@ details summary {
 }
 
 
+/* page 2 */
 
 #page-2 {
     background-color: rgb(150, 135, 59);
     background-image: url(./Images/backgrounds/pete-points.png);
     background-repeat: repeat;
     background-size: contain;
-    min-height: 75vh;
-    max-height: 150vh;
     width: 100%;
     text-align: center;
 }
@@ -131,13 +145,13 @@ details summary {
     background-color: #96873B;
 }
 
+/* page 3 */
+
 #page-3 {
     background-color: #724126;
     background-image: url(./Images/backgrounds/rocks-less-populated.png);
     background-repeat: repeat;
     background-size: contain;
-    min-height: 75vh;
-    max-height: 150vh;
     width: 100%;
     display: flex;
     text-align: center;
@@ -151,7 +165,7 @@ details summary {
     align-items: center;
 
 }
-
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa .project needs a @media edit (width)*/
 
 .project {
     background-color: #7F7E7E;
@@ -159,9 +173,6 @@ details summary {
     height: 17vh;
     width: 30vw;
     border-radius: 2vh;
-}
-article {
-    margin: 3vh;
 }
 
 #deep-stone {
@@ -174,18 +185,29 @@ article {
     background-repeat: repeat;
     background-size: contain;
 
-    min-height: 75vh;
-    max-height: 150vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 
-    
+    padding-bottom: 5vh;
 }
 
 .icon {
     height: 15vh;
     width: 17vh;
 }
+
+
+/* width edits */
+
+@media screen and (min-width: 600px) {
+    #profile {
+        height: 160px;
+        width: 160px;
+    }
+}
+
+
+/* Fin */
