@@ -71,7 +71,6 @@ details summary {
     background-color: #11b43e;
     background-repeat: repeat;
     background-size: contain;
-    width: 100%;
     margin-bottom: -1px;
 
 }
@@ -88,12 +87,10 @@ details summary {
     min-height: 60vh;
     padding-right: 3vh;
     display: flex;
-    
     justify-content: flex-end;
     align-items: center;
     background-image: url(./Images/svg-parts/hill-right.svg), url(./Images/svg-parts/hill-left.svg);
 }
-
 #introduction {
     width: 55%;
     display: flex;
@@ -118,7 +115,6 @@ details summary {
     background-color: #11b43e;
 }
 
-
 /* page 2 */
 
 #page-2 {
@@ -133,7 +129,6 @@ details summary {
 }
 
 #n-logo {
-    height: 15%;
     width: 50vw;
     margin-bottom: 3vh;
 }
@@ -165,7 +160,6 @@ details summary {
     color: rgb(156, 156, 19);
 }
 
-
 .project {
     background-color: #7F7E7E;
     opacity: 0.6;
@@ -180,6 +174,7 @@ details summary {
     align-items: center;
 }
 h2 {
+    /* This enables spacing neatness */
     min-height: 1em;
 }
 
@@ -199,13 +194,10 @@ h2 {
     background-image: url(./Images/backgrounds/fossil\ backdrop.png);
     background-repeat: repeat;
     background-size: contain;
-
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
     padding-bottom: 5vh;
 }
 
@@ -215,7 +207,7 @@ h2 {
 }
 
 
-/* rtesponsive design */
+/* responsive design controlls*/
 
 @media screen and (min-width: 350px) {
 
@@ -225,9 +217,6 @@ h2 {
     h1 {
         font-size: 1.5em;
     }
-    /* page 1 */
-    
-    /* page 2 */
 
     /* page 3 */
     .project {
@@ -235,26 +224,19 @@ h2 {
     }
 
     /* page 4 */
-    #page-4 {
-        font-size: 1.2em;
-    }
     #contact {
         flex-direction: row;
     }
-
 }
 
 @media screen and (min-width: 675px) {
-
+    
     .split-body{
         flex-direction: column;
-        align-items: center;
     }
     .split-line {
         flex-direction: row;
-        justify-content: space-evenly;
     }
-
     h1 {
         font-size: 2em;
     }
@@ -281,33 +263,8 @@ h2 {
     .project {
         height: 20vh;
         width: 20vw;
+        max-width: 240px;
     }
-
-    /* page 4 */
-    /* #page-4 {
-        font-size: 2em;
-    } */
-
 }
-
-
-
-/* To-do list:
-Go through pages and @media screen/query at 600px
-
-possibly again at 900 or another value?
-
-Sort page 1 profie pop up (max sizes instead for after 600?)
-
-Margins and padding on page 2 (all widths!) +logo
-
-Margins and padding on page 3
-
-format page 4 (unhappy as is, especially on desktop
-
-actually fill it in...
-*/
-
-
 
 /* Fin */
