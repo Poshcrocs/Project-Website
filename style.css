@@ -202,8 +202,9 @@ h2 {
 }
 
 .icon {
-    height: 15vh;
-    width: 17vh;
+    aspect-ratio: 17/15;
+    height: 10vh;
+    width: 10vh;
 }
 
 
@@ -264,6 +265,12 @@ h2 {
         height: 20vh;
         width: 20vw;
         max-width: 240px;
+    }
+
+    /* page 4 */
+    .icon {
+        height: 17vh;
+        width: 17vh;
     }
 }
 
