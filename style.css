@@ -80,6 +80,7 @@ details summary {
     height: 40vw;
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-end;
 }
 #balloon {
     height: 100%;
