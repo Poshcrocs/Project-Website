@@ -153,9 +153,9 @@ details summary {
     margin-bottom: 3vh;
 }
 
-#page-2-left, #page-2-right {
+/* #page-2-left, #page-2-right {
     align-items: flex-start;
-}
+} */
 
 .learning-point {
     display: flex;
