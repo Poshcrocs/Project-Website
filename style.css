@@ -8,10 +8,6 @@
 
 /* recurring settings */
 
-/* .page {
-    padding-left: 5vw;
-    padding-right: 5vw;
-} */
 
 .divider { 
     width: 100%;
@@ -81,22 +77,11 @@ details summary {
 }
 
 #skyline {
+    /* This is the area the Balloon can float in */
     height: 40vw;
     display: flex;
     justify-content: flex-end;
 }
-
-/* @keyframes float {
-    0%  {left: 200px; top:0px}
-    100% {left: 0px; top: 0px;}
-
-}
-
-#balloon {
-    position: relative;
-    animation-name: float;
-    animation-duration: 4s;
-} */
 
 #hill-main {
     max-height: 100%;
@@ -149,13 +134,15 @@ details summary {
 
 #n-logo {
     height: 15%;
-    width: 28%;
+    width: 50vw;
     margin-bottom: 3vh;
 }
 
 .learning-point {
     display: flex;
     align-items: center;
+    min-width: 25vw;
+
 }
 .bullet {
     margin: 1vw;
@@ -196,6 +183,13 @@ h2 {
     min-height: 1em;
 }
 
+#this-page {
+    background-image: url(./Images/Assets/This\ Webpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
 #deep-stone {
     background-color: #724126;
 }
@@ -228,9 +222,11 @@ h2 {
     .split-body {
         flex-direction: row;
     }
-
+    h1 {
+        font-size: 1.5em;
+    }
     /* page 1 */
-
+    
     /* page 2 */
 
     /* page 3 */
@@ -245,7 +241,7 @@ h2 {
     #contact {
         flex-direction: row;
     }
-   
+
 }
 
 @media screen and (min-width: 675px) {
@@ -259,15 +255,23 @@ h2 {
         justify-content: space-evenly;
     }
 
+    h1 {
+        font-size: 2em;
+    }
+
     /* page 1 */
     #profile {
         height: 160px;
         width: 160px;
     }
-  
+    #page-1 {
+        font-size: 1.2em;
+    }
 
     /* page 2 */
-
+    #n-logo {
+        width: 310px;
+    }
 
     /* page 3 */
     #page-3 {
@@ -280,9 +284,9 @@ h2 {
     }
 
     /* page 4 */
-    #page-4 {
+    /* #page-4 {
         font-size: 2em;
-    }
+    } */
 
 }
 
