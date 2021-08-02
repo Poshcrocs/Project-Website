@@ -235,7 +235,7 @@ h2 {
 
 /* responsive design controlls*/
 
-@media screen and (min-width: 350px) {
+@media screen and (min-width: 450px) {
 
     .split-body {
         flex-direction: row;
@@ -260,7 +260,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 675px) {
+@media screen and (min-width: 700px) {
     
     .split-body{
         flex-direction: column;
