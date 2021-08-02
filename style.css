@@ -210,6 +210,13 @@ h2 {
     opacity: 1;
 }
 
+#trello-board {
+    background-image: url(./Images/Assets/Requirements\ challenge\ screenshot.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
 #deep-stone {
     background-color: #724126;
 }
