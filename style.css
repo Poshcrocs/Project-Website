@@ -217,6 +217,13 @@ h2 {
     opacity: 1;
 }
 
+#tableau {
+    background-image: url(./Images/Assets/Tableau\ Analysis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
 #deep-stone {
     background-color: #724126;
 }
