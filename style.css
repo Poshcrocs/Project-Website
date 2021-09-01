@@ -3,7 +3,7 @@
     margin: 0%;
     padding: 0%;
     font-family: 'Bubblegum Sans', cursive;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /* recurring settings */
@@ -82,7 +82,7 @@ details summary {
     flex-direction: row-reverse;
     align-items: flex-end;
 }
-/* This is a test comment = 3 */
+/* This is a test comment = 0 */
 #balloon {
     height: 90%;
     aspect-ratio: 1/1;
